@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Tiny5&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin: 1%;
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vh;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  background-image: url(img/prize.png);
+  background-position: center;
+  background-repeat: no-repeat;\
+  width: auto;
+  height: 500px;
+  margin-top: 49%;
+}
+
+.main-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  z-index: 10; /* Чтобы ссылка была поверх других элементов */
+}
+
+p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+ font-optical-sizing: auto;
+ font-weight: <weight>;
+ font-style: normal;
+ font-size: 4vh;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center; /* Центрируем по вертикали */
+  margin-top: 40px; /* Отступ сверху */
+}
+
+img {
+  width: 400px; /* Увеличил размер изображения */
+  height: auto; /* Сохраняем пропорции */
+}

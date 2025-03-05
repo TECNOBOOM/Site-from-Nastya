@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Tiny5&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin: 1%;
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vh;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.cat {
+  display: flex;
+  justify-content: center; /* Центрируем по горизонтали */
+  align-items: center; /* Центрируем по вертикали */
+  margin-top: 40px; /* Отступ сверху */
+}
+
+ body img {
+  width: 400px; /* Увеличил размер изображения */
+  height: auto; /* Сохраняем пропорции */
+}
+
+.flower {
+  background-image: url(img/cvetok2.png);
+  background-position: center;
+  background-repeat: no-repeat;\
+  width: auto;
+  height: 500px;
+  margin-top: 25%;
+  margin-bottom: 25%;
+
+  animation-name: cvetok;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cvetok {
+  0%{
+    transform: rotate(0);
+  }
+  25%{
+    transform: rotate(-45deg);
+    background-size: auto 650px;
+  }
+  50%{
+    transform: rotate(0);
+  }
+  75%{
+    transform: rotate(45deg);
+    background-size: auto 650px;
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
